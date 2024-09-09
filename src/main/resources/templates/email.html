@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+      <meta charset="UTF-8">
+      <title>Correo de Prueba con HTML</title>
+      <style>
+          h1{
+            color:#007bff;
+          }
+
+          p{
+            color:#ff0000;
+          }
+      </style>
+  </head>
+  <body>
+    <h1>Hola!</h1>
+    <p th:utext="${mensaje}">este es el mensaje!</p>
+
+  </body>
+</html>
